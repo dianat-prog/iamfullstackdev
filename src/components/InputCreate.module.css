@@ -1,0 +1,30 @@
+.container{
+display: flex;
+padding: 16px;
+align-items: center;
+flex-direction: column;
+
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* 0.5rem equivale a 8px por defecto en Tailwind */
+  }
+
+  .btn {
+    background-color: #093c77; /* bg-blue-500 */
+    color: white;              /* text-white */
+    padding-left: 1rem;        /* px-4 */
+    padding-right: 1rem;
+    padding-top: 0.5rem;       /* py-2 */
+    padding-bottom: 0.5rem;
+    border-radius: 0.25rem;    /* rounded */
+  margin-top: 1rem;
+    transition: background-color 0.2s ease; /* para el efecto suave al hover */
+  }
+  
+  .btn:hover {
+    background-color: #3d6ea7; /* hover:bg-blue-600 */
+  }
